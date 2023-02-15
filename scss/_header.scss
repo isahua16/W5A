@@ -1,0 +1,19 @@
+#page_header {
+  width: 70%;
+  max-width: 300px;
+  min-height: 15vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+
+  > h1 {
+    justify-self: start;
+  }
+
+  > nav {
+    justify-self: end;
+  }
+  a {
+    text-decoration: none;
+  }
+}

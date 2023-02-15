@@ -1,0 +1,17 @@
+#page_footer {
+  width: 100%;
+  max-width: 300px;
+  min-height: 15vh;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px;
+  > div {
+    display: grid;
+    justify-items: center;
+    gap: 3px;
+    > a {
+      text-decoration: none;
+    }
+  }
+}
